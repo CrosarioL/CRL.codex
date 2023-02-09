@@ -79,7 +79,7 @@ const handleSubmit = async (e) => {
 
   // fetch data from server -> Bot's response
 
-  const response = await fetch('https://github.com/CrosarioL/server', {
+  const response = await fetch('https://crlcodex.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
